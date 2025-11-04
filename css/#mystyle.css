@@ -1,0 +1,39 @@
+:root {
+    --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --bs-primary-rgb: #BF416F;
+    --bs-link-color:rgb(191, 65, 111)
+    --bs-link-hover-color: #BF416F;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    font-family: "Noto Serif JP", "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    text-transform: none;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.tooltip, .popover, .subheading {
+    font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none;
+}
+
+a {
+    text-decortion: none;
+}
+
+.social-icons .social-icon:hover {
+    background-color: #BF416F;
+}
+
+nav {
+    background-image: url("../assets/img/black-thread-light.png");
+}
+
+.resume-section {
+    background-color: rgb(255, 250, 240);
+}
