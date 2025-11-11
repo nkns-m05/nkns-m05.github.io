@@ -54,4 +54,22 @@ nav {
 
 section.resume-section {
     background-color: #fffaf3;
+    max-width: none;
+}
+
+.list-group-item {
+    background-color: #fffaf3;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(118, 45, 181);
+    color:#fffaf3;
+}
+
+.card {
+    background-color: #fffaf3;
 }
