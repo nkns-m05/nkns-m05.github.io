@@ -266,7 +266,23 @@
 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
 
                         </div>
-                    
+                    <style>
+                    .photo-row {
+                        display: flex;
+                        flex-wrap: wrap;   /* ここがポイント！幅が足りないと自動で折り返し */
+                        gap: 10px;         /* 写真の隙間 */
+                    }
+                    .photo-row img {
+                        width: 200px;      /* ここで写真の大きさ調整 */
+                        border-radius: 8px;
+                    }
+                    </style>
+                    <div class="photo-row">
+                        <img src="IMG_0164.jpeg" alt="写真1">
+                        <img src="photo2.jpg" alt="写真2">
+                        <img src="photo3.jpg" alt="写真3">
+                        <img src="photo4.jpg" alt="写真4">
+                    </div>
                     <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
                 </div>
             </section>
